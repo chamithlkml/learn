@@ -1,0 +1,8 @@
+<h1>Animal list</h1>
+<ul>
+	<% for animal in @animals %>
+    <li><%= animal.name %></li>
+      <blockquote>
+        <%= animal.description %>
+      </blockquote>
+  <% end %>

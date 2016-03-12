@@ -1,0 +1,12 @@
+<h1>Gallery Results</h1>
+  <ul>
+    <% for gallery in @galleries %>
+      <li><b><%= gallery.name %>(<i> <%=gallery.photographer.name %> </i>)</b>
+        <ul>
+          <% for photo in gallery.photos %>
+            
+          <% end %>
+        </ul>
+      </li>
+    <% end %>
+  </ul>
